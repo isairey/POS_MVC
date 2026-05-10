@@ -1,66 +1,391 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
+
+<img width="220" src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png" />
+
+# 🧾 POS MVC System
+
+### Sistema de Punto de Venta con arquitectura MVC 🚀
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <b>POS MVC System</b> es una aplicación de punto de venta desarrollada bajo el patrón de arquitectura MVC, diseñada para gestionar productos, ventas, clientes e inventario de forma estructurada, escalable y mantenible.
 </p>
 
-## About Laravel
+<p align="center">
+  <img src="https://img.shields.io/badge/PHP-MVC-777BB4?style=for-the-badge&logo=php&logoColor=white">
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/Architecture-MVC-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Backend-POS-success?style=for-the-badge">
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+  <a href="#-preview">Preview</a> •
+  <a href="#-características">Características</a> •
+  <a href="#-arquitectura-mvc">MVC</a> •
+  <a href="#-tecnologías-utilizadas">Tecnologías</a> •
+  <a href="#-instalación">Instalación</a>
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+</div>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+# 🌌 Acerca de POS MVC System
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+**POS MVC System** es un sistema de punto de venta desarrollado con el patrón **Modelo-Vista-Controlador (MVC)**, enfocado en mantener una arquitectura limpia, organizada y escalable para aplicaciones empresariales.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+El sistema permite administrar procesos de venta y control de inventario con una estructura modular que separa la lógica de negocio, la interfaz y el acceso a datos.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+La plataforma permite:
 
-## Laravel Sponsors
+- 🛒 Gestión de ventas
+- 📦 Control de inventario
+- 👥 Administración de clientes
+- 💰 Registro de pagos
+- 📊 Reportes de ventas
+- 🔐 Sistema de autenticación
+- ⚙️ Panel administrativo
+- 🧾 Generación de tickets
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+El proyecto fue desarrollado para practicar:
 
-### Premium Partners
+- Arquitectura MVC
+- PHP estructurado
+- MySQL
+- Sistemas POS
+- Programación backend
+- CRUD avanzado
+- Buenas prácticas de desarrollo
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+---
 
-## Contributing
+# 📸 Preview
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🏠 Dashboard POS
 
-## Code of Conduct
+<div align="center">
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?q=80&w=1600&auto=format&fit=crop" width="900"/>
 
-## Security Vulnerabilities
+</div>
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+## 🛒 Gestión de Ventas
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<div align="center">
+
+<img src="https://images.unsplash.com/photo-1556742393-d75f468bfcb0?q=80&w=1600&auto=format&fit=crop" width="900"/>
+
+</div>
+
+---
+
+## 📦 Inventario de Productos
+
+<div align="center">
+
+<img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1600&auto=format&fit=crop" width="900"/>
+
+</div>
+
+---
+
+## 👥 Clientes y Usuarios
+
+<div align="center">
+
+<img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1600&auto=format&fit=crop" width="900"/>
+
+</div>
+
+---
+
+# ✨ Características
+
+## 🏪 Sistema POS
+
+- 🛒 Registro de ventas en tiempo real
+- 🧾 Generación de tickets
+- 💰 Control de caja
+- 📦 Descuento automático de inventario
+- ⚡ Flujo rápido de venta
+
+---
+
+## 📦 Inventario
+
+- 📋 Gestión de productos
+- 📊 Control de stock
+- 🏷️ Categorías de productos
+- 🔄 Actualización automática
+
+---
+
+## 👥 Usuarios y Clientes
+
+- 🔐 Login de usuarios
+- 👤 Registro de clientes
+- 🔑 Roles y permisos
+- 📊 Historial de compras
+
+---
+
+## 📊 Reportes
+
+- 📈 Ventas diarias
+- 💰 Ingresos totales
+- 📦 Productos más vendidos
+- 📉 Estadísticas generales
+
+---
+
+# 🧩 Arquitectura MVC
+
+## 📦 Modelo
+
+- Manejo de base de datos
+- Consultas SQL
+- Lógica de negocio
+
+---
+
+## 🖥️ Vista
+
+- Interfaces HTML/CSS
+- Formularios
+- Panel administrativo
+
+---
+
+## 🎮 Controlador
+
+- Comunicación entre modelo y vista
+- Validaciones
+- Flujo de la aplicación
+
+---
+
+# 🛠️ Tecnologías Utilizadas
+
+## 💻 Backend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=php,mysql" />
+</p>
+
+- PHP (MVC)
+- MySQL
+- SQL
+- PDO / MySQLi
+
+---
+
+## 🎨 Frontend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,bootstrap,js" />
+</p>
+
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript
+
+---
+
+## ⚙️ Arquitectura
+
+- MVC Pattern
+- CRUD System
+- REST-like structure (opcional)
+- Modular design
+
+---
+
+# 📂 Estructura del Proyecto
+
+```bash
+POS_MVC/
+│
+├── app/
+│   ├── controllers/     # Controladores
+│   ├── models/          # Modelos (DB)
+│   ├── views/           # Vistas UI
+│
+├── config/              # Configuración DB
+├── public/              # Assets públicos
+│   ├── css/
+│   ├── js/
+│
+├── routes/              # Rutas del sistema
+├── core/                # Núcleo MVC
+├── index.php            # Entrada principal
+└── README.md
+```
+
+---
+
+# ⚡ Instalación
+
+## 1️⃣ Clonar repositorio
+
+```bash
+git clone https://github.com/isairey/POS_MVC.git
+```
+
+---
+
+## 2️⃣ Entrar al proyecto
+
+```bash
+cd POS_MVC
+```
+
+---
+
+## 3️⃣ Configurar base de datos
+
+- Crear base de datos en MySQL
+- Importar archivo `.sql`
+- Configurar conexión en:
+
+```bash
+config/database.php
+```
+
+---
+
+## 4️⃣ Ejecutar servidor
+
+Usar:
+
+- XAMPP
+- WAMP
+- Laragon
+
+Acceder:
+
+```
+http://localhost/POS_MVC
+```
+
+---
+
+# 🔥 Funcionalidades Técnicas
+
+## ⚡ Backend MVC
+
+- Separación de capas
+- Código organizado
+- Escalabilidad
+- Reutilización de código
+
+---
+
+## 🗄️ Base de Datos
+
+- Relaciones entre tablas
+- CRUD completo
+- Integridad de datos
+- Consultas optimizadas
+
+---
+
+## 📱 UI
+
+- Interfaz simple
+- Panel administrativo
+- Experiencia intuitiva
+- Diseño responsivo
+
+---
+
+# 🧠 Objetivos del Proyecto
+
+## 🎯 Aprender y practicar
+
+- Arquitectura MVC
+- PHP backend
+- Sistemas POS
+- MySQL
+- Buenas prácticas
+- Desarrollo estructurado
+- CRUD completo
+
+---
+
+# 📊 Roadmap
+
+## 🚧 Próximamente
+
+- ☁️ API REST completa
+- 📱 Versión móvil
+- 📊 Dashboard avanzado
+- 💳 Pagos digitales
+- 🔐 Seguridad avanzada
+- 📦 Escaneo de productos
+- 🌙 Dark Mode
+
+---
+
+# 🤝 Contribuciones
+
+Las contribuciones son bienvenidas ❤️
+
+## Cómo contribuir
+
+1. Fork del proyecto
+2. Crear rama
+
+```bash
+git checkout -b feature/nueva-funcion
+```
+
+3. Realizar cambios
+4. Commit
+
+```bash
+git commit -m "✨ Mejora MVC"
+```
+
+5. Push
+
+```bash
+git push origin feature/nueva-funcion
+```
+
+6. Pull Request 🚀
+
+---
+
+# 👨‍💻 Autor
+
+<div align="center">
+
+## Isai Reyes MVC Developer
+
+Desarrollador enfocado en arquitectura limpia, sistemas POS y backend escalable.
+
+</div>
+
+---
+
+# 🌟 Apoya el Proyecto
+
+⭐ Dale una estrella  
+🍴 Haz fork  
+📢 Compártelo
+
+---
+
+# 📜 Licencia
+
+Proyecto educativo desarrollado para práctica de arquitectura MVC.
+
+---
+
+<div align="center">
+
+### 🧾 POS MVC System — Arquitectura limpia para sistemas de punto de venta modernos 🚀
+
+</div>
